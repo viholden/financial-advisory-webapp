@@ -1,0 +1,51 @@
+/* src/pages/Home.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .home-container {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    height: 300vh; /* Increase height for scrolling */
+  }
+  
+  .section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #finance-academy h1 {
+    font-size: 4rem;
+  }
+  
+  #testimonies, #page-links {
+    opacity: 0;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
