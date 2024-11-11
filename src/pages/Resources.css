@@ -1,37 +1,51 @@
 /* src/pages/Resources.css */
 
+.resources-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.resources-page .description {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
 .resources-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 16px;
-    text-align: center;
-    background-color: #f9f9f9;
-    transition: background-color 0.3s;
-  }
-  
-  .card:hover {
-    background-color: #e0e0e0;
-  }
-  
-  .card h3 {
-    margin-bottom: 8px;
-    font-size: 1.2rem;
-  }
-  
-  .card p {
-    font-size: 0.9rem;
-    color: #555;
-  }
-  
-  .card a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background-color: lightgreen;
+  transition: background-color 0.3s;
+  color: black;
+  width: 250px; /* Adjust width to make the cards wider */
+  height: 250px; /* Adjust height to make the cards more square */
+}
+
+.card:hover {
+  background-color: #a8d5a8;
+}
+
+.card h3 {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: black;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+}

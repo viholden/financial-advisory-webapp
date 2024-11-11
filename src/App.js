@@ -1,29 +1,30 @@
 // src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import BudgetPlanner from './pages/BudgetPlanner';
 import Resources from './pages/Resources';
-import Forum from './pages/Forum';
-import Login from './pages/Login';
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import Footer from './components/Footer';
 import Chatbot from './pages/Chatbot';
+import Login from './pages/Login';
 
-function App() {
+const App = () => {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/budget-planner" element={<><Header /><Sidebar /><BudgetPlanner /><Footer /></>} />
-        <Route path="/resources" element={<><Header /><Sidebar /><Resources /><Footer /></>} />
-        <Route path="/forum" element={<><Header /><Sidebar /><Forum /><Footer /></>} />
-        <Route path="/chatbot" element={<><Header /><Sidebar /><Chatbot /><Footer /></>} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
+      <Header />
+      <main>
+        <Routes>
+          <Route exact path="/home" element={<Home />} />
+          <Route path="/budget-planner" element={<BudgetPlanner />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/chatbot" element={<Chatbot />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </main>
+      <Footer />
     </Router>
   );
-}
+};
 
 export default App;

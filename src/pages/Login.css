@@ -1,0 +1,25 @@
+/* src/pages/Login.css */
+
+.login-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .auth-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    border-radius: 50px; /* Make the button round */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-button:hover {
+    background-color: #a8d5a8;
+  }
