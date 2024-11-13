@@ -2,6 +2,8 @@
 
 Welcome to Finance Academy, a web application designed to help college students build a strong financial foundation. Our mission is to provide accessible, practical financial education that empowers students to make informed decisions about budgeting, saving, investing, and managing their finances.
 
+View website - https://gwc-la.web.app/home
+
 ## Table of Contents
 
 - [Features](#features)
