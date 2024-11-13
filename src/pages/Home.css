@@ -1,20 +1,22 @@
-/* src/pages/Home.css */
 body, html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   font-family: 'Arial', sans-serif;
+  height: 100%; 
 }
 
 .home-container {
   background-color: white;
   color: black;
   text-align: center;
-  height: 300vh; /* Increase height for scrolling */
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
 }
 
 .section {
-  height: 100vh;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,7 +79,7 @@ body, html {
   margin-top: 10px;
 }
 
-/* Core Features Section */
+/* Features Section */
 .features-section {
   padding: 50px 20px;
 }

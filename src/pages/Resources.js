@@ -1,6 +1,5 @@
-// src/pages/Resources.js
 import React from 'react';
-import './Resources.css'; // Import the CSS file for styling
+import './Resources.css';
 
 const resources = [
   { title: 'Investopedia', link: 'https://www.investopedia.com/', description: 'This comprehensive website offers articles, tutorials, and videos on a wide range of financial topics, from investing and trading to personal finance and economics.' },
@@ -18,7 +17,6 @@ const resources = [
   { title: 'Kiplinger', link: 'https://www.kiplinger.com/', description: 'A personal finance magazine and website that provides news, analysis, and advice on investing, taxes, and retirement.' },
   { title: 'Money Magazine', link: 'https://money.com/', description: 'A personal finance magazine and website that provides news, analysis, and advice on investing, saving, and spending.' },
   { title: 'Clark Howard', link: 'https://clark.com', description: 'Clark Howard is a personal finance expert who provides down-to-earth advice on saving money, managing debt, and making smart financial decisions.' },
-  { title: 'Mint', link: 'https://www.mint.com/', description: 'A free personal finance tool that helps you track your spending, budgeting, and investing.' }
 ];
 
 const Resources = () => {
