@@ -1,6 +1,6 @@
 # Finance Academy
 
-Welcome to Finance Academy, a web application designed to help college students build a strong financial foundation. Our mission is to provide accessible, practical financial education that empowers students to make informed decisions about budgeting, saving, investing, and managing their finances.
+Welcome to Finance Academy, a web application designed to help college students build a strong financial foundation. This website was built as the Give Back Project for the Leadership Academy through Girls Who Code. Our mission is to provide accessible, practical financial education that empowers students to make informed decisions about budgeting, saving, investing, and managing their finances.
 
 View website - https://gwc-la.web.app/home
 
@@ -8,11 +8,6 @@ View website - https://gwc-la.web.app/home
 
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Firebase Configuration](#firebase-configuration)
-- [Available Scripts](#available-scripts)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
